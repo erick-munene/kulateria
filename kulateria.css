@@ -1,9 +1,10 @@
 #top {
-    background-image: url("");
+    background-color: lightgoldenrodyellow;
     background-size: 5px;
     font-family: monospace;
     font-size: 32;
     font-stretch: expanded;
+    text-transform: uppercase
     color: gold;
     font-weight: 200;
     font-feature-settings: normal;
