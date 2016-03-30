@@ -1,10 +1,10 @@
 #top {
-    background-image: url("images/green.jpg");
+    background-image: url("");
     background-size: 5px;
     font-family: monospace;
     font-size: 32;
     font-stretch: expanded;
-     color: gold;
+    color: gold;
     font-weight: 200;
     font-feature-settings: normal;
     padding-top: 10px;
