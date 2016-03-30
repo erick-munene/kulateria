@@ -1,4 +1,4 @@
-#top {
+#title {
     background-color: lightgoldenrodyellow;
     background-size: 5px;
     font-family: monospace;
@@ -7,12 +7,19 @@
     text-transform: uppercase
     color: gold;
     font-weight: 200;
-    font-feature-settings: normal;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    margin-top: 10;
-    height: 100px;
-    align-content: flex-end;
+    margin-bottom:2px;
     
 }
+
+
+#top {
+    background-color: lightgoldenrodyellow;
+    background-size: 5px;
+    font-family: monospace;
+    font-size: 32;
+    text-transform: uppercase
+    color: gold;
+    font-weight: 200;
+       
+}
+
