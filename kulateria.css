@@ -29,10 +29,14 @@
 }
 
 /* styling the fast food images */
-#photos {
+#photo {
     padding-top: 50%;
 }
+
+
 .photos img {
+    margin: 20% auto;
+    padding-top: 50%;
     position: absolute;
     
    
