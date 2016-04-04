@@ -19,14 +19,23 @@ html {
 
 
 #top {
-    background-color: lightgoldenrodyellow;
+    padding-top: 20px;
+    background-color: yellow;
     background-size: 5px;
     font-family: monospace;
     font-size: 32;
     text-transform: uppercase
     color: gold;
     font-weight: 200;
+    border-top-left-radius: 13px;
+    border-bottom-right-radius: 13px;
        
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 #main {
@@ -41,7 +50,7 @@ html {
 
 
 .photos img {
-    margin: 20% auto;
+    margin: 30% auto;
     padding-top: 50%;
     position: absolute;
     
@@ -142,3 +151,5 @@ html {
     background: white;
     border: solid 1px black;
 }
+
+
