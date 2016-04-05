@@ -2,8 +2,11 @@ html {
     background-color: black;
 }
 
+
+
 footer {
-    background-color: yellowgreen;
+    margin: 10% auto;
+    background-color: yellow;
     text-align: center;
     font-size: 20px;
     border-bottom: 10% auto;
@@ -42,12 +45,10 @@ ul {
 
 /* styling the fast food images */
 
-#photo {
-    padding-top: 50%;
-}
+
 .photos img {
+  
     margin: 30% auto;
-    padding-top: 50%;
     position: absolute;
 }
 .photos img:nth-of-type(1) {
@@ -75,7 +76,7 @@ ul {
     top: 50px;
     -webkit-transform: rotate(5deg);
     -moz-transform: rotate(5deg);
-    -o-transform: rotate(5deg);
+    -o-transform: rotate(15deg);
     transform: rotate(5deg);
 }
 .photos img:nth-of-type(2) {
