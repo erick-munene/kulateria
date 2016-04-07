@@ -9,7 +9,12 @@ p {
     
 }
 
-footer {
+#title h1{
+    color: black;
+}
+
+.foot {
+    padding: 2%;
     margin: 10% auto;
     background-color: yellow;
     text-align: center;
@@ -27,6 +32,11 @@ footer {
     margin-bottom: 2px;
     border-radius: 15px;
 }
+
+#top {
+    
+    margin: 0 auto;
+}
 .top {
     width: 100%;
     padding-top: 20px;
@@ -37,6 +47,7 @@ footer {
 }
 
 #nav {
+    background-color: yellow;
     text-align: center;
     color: black;
     margin: 0 auto;
@@ -52,6 +63,7 @@ a {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
 }
 
 .top :hover {
@@ -73,7 +85,8 @@ a {
 }
 
 .side{
-    
+    width=50%;
+    height: 30%;
     float: right;
 }
 
@@ -85,13 +98,20 @@ li {
     text-align: center;
     
 }
-#main {
+.main {
+    margin: 0 auto;
     background-color: black;
-    height: 100%;
+    background-blend-mode: color-dodge red;
+    width: 100%;
 }
 
 /* styling the fast food images */
-
+.photos{
+    height: 110%;
+}
+#photo{
+    margin:0 auto;
+}
 
 .photos img {
   
