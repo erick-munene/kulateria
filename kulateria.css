@@ -2,7 +2,12 @@ html {
     background-color: black;
 }
 
-
+p {
+    font-size: 30;
+    color: white;
+    padding-top: 1%;
+    
+}
 
 footer {
     margin: 10% auto;
@@ -22,21 +27,63 @@ footer {
     margin-bottom: 2px;
     border-radius: 15px;
 }
-#top {
+.top {
+    width: 100%;
     padding-top: 20px;
     background-color: yellow;
-    background-size: 5px;
-    font-family: monospace;
-    font-size: 32;
-    text-transform: uppercase color: gold;
-    font-weight: 200;
-    border-top-left-radius: 13px;
-    border-bottom-right-radius: 13px;
+    font-size: 20px;
+    text-align: inherit;
+
 }
-ul {
+
+#nav {
+    text-align: center;
+    color: black;
+    margin: 0 auto;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.top ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.top :hover {
+    background-color: white;
+    text-decoration: none;
+    color: gold;
+    font-size: 25px;
+    padding: inherit;
+    
+    
+}
+
+.video {
+    
+    border-radius: 2px;
+    border-color: red;
+    padding: 2%;
+    margin: 2 auto;
+}
+
+.side{
+    
+    float: right;
+}
+
+
+li {
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    
 }
 #main {
     background-color: black;
