@@ -30,7 +30,10 @@ p {
     text-transform: uppercase color: gold;
     font-weight: 200;
     margin-bottom: 2px;
-    border-radius: 15px;
+    margin-top: 2px;
+    padding: 0.25%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 #top {
@@ -51,6 +54,9 @@ p {
     text-align: center;
     color: black;
     margin: 0 auto;
+    border-bottom-left-radius:15px ;
+    border-bottom-left-radius: 15px;
+    
     
 }
 
@@ -99,6 +105,7 @@ li {
     
 }
 .main {
+    
     margin: 0 auto;
     background-color: black;
     background-blend-mode: color-dodge red;
@@ -107,7 +114,7 @@ li {
 
 /* styling the fast food images */
 .photos{
-    height: 110%;
+    height: 100%;
 }
 #photo{
     margin:0 auto;
@@ -115,7 +122,7 @@ li {
 
 .photos img {
   
-    margin: 30% auto;
+    margin: 40% auto;
     position: absolute;
 }
 .photos img:nth-of-type(1) {
