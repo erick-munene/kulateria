@@ -34,7 +34,7 @@
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
         }
-        #top {
+        /*   #top {
             margin: 0 auto;
         }
         #top {
@@ -180,11 +180,126 @@
             transition: all 0.5s ease-out;
         }
         .photos img {
-            -webkit-transition: all 0.5s ease-out;
+            /* -webkit-transition: all 0.5s ease-out;
             -moz-transition: all 0.5s ease-out;
-            -o-transition: all 0.5s ease-out;
+            -o-transition: all 0.5s ease-out;*/
             transition: all 0.5s ease-out;
             padding: 10px 10px 30px 10px;
             background: white;
             border: solid 1px black;
+        }
+        /*======================navigation========================*/
+        
+        @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+        body {
+            font: 400 16px 'Montserrat', sans-serf;
+        }
+        /**********/
+        /* LAYOUT */
+        /**********/
+        
+        #header {
+            position: relative;
+        }
+        #header-content {
+            width: 100%;
+        }
+        #header-logo {
+            padding: 1em;
+            background: #111111;
+        }
+        #header-nav {
+            padding: 1em;
+            background: #555555;
+        }
+        #header-nav-toggle {
+            color: #fff;
+            font-size: 2em;
+            position: absolute;
+            top: .5em;
+            right: .5em;
+            z-index: 1;
+            cursor: pointer;
+        }
+        /***********/
+        /* MODULES */
+        /***********/
+        /* Measure */
+        
+        .measure {
+            width: 90%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        /* Logo */
+        
+        .logo {
+            color: #fff;
+            font-weight: 700;
+            margin: 0;
+        }
+        /* Nav */
+        
+        .nav {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav li {
+            width: 100%;
+            margin: 0 0 1em 0;
+            display: block;
+        }
+        .nav li:last-child {
+            margin: 0;
+        }
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        /*************/
+        /* MODIFIERS */
+        /*************/
+        
+        .is-hidden {
+            display: none;
+        }
+        .is-visible {
+            display: block;
+        }
+        /*****************/
+        /* MEDIA QUERIES */
+        /*****************/
+        
+        @media screen and (min-width: 600px) {
+            /* Header */
+            #header {
+                padding: 1em;
+                background: #111111;
+            }
+            #header-content {
+                max-width: 800px;
+                margin: 0 auto;
+                overflow: hidden;
+            }
+            #header-logo {
+                padding: 0;
+                background: none;
+                float: left;
+            }
+            #header-nav {
+                padding: .5em;
+                background: none;
+                float: right;
+                display: block;
+            }
+            #header-nav-toggle {
+                display: none;
+            }
+            /* Nav */
+            .nav li {
+                width: auto;
+                margin: 0 .5em;
+                display: inline-block;
+            }
         }
