@@ -37,7 +37,7 @@
         #top {
             margin: 0 auto;
         }
-        .top {
+        #top {
             width: 100%;
             padding-top: 20px;
             background-color: yellow;
@@ -55,7 +55,7 @@
         a {
             text-decoration: none;
         }
-        .top ul {
+        #top ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
@@ -77,11 +77,13 @@
             height: 30%;
             float: right;
         }
-        .top li {
+        #top li {
             float: left;
             padding-left: 5%;
             padding-right: 5%;
             text-align: center;
+            border-bottom-left-radius: 15px;
+            border-bottom-left-radius: 15px;
         }
         #kula img {
             border-top-color: black;
