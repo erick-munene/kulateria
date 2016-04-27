@@ -1,0 +1,188 @@
+        #html {
+            background-color: black;
+        }
+        .container {
+            background-color: black;
+        }
+        p {
+            font-size: 30;
+            color: white;
+            padding-top: 1%;
+        }
+        #title h1 {
+            color: black;
+        }
+        .foot {
+            padding: 2%;
+            margin: 10% auto;
+            background-color: yellow;
+            text-align: center;
+            font-size: 20px;
+            border-bottom: 10% auto;
+        }
+        #title {
+            background-color: yellow;
+            background-size: 5px;
+            font-family: monospace;
+            font-size: 32;
+            font-stretch: expanded;
+            text-transform: uppercase color: gold;
+            font-weight: 200;
+            margin-bottom: 2px;
+            margin-top: 2px;
+            padding: 0.25%;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        #top {
+            margin: 0 auto;
+        }
+        .top {
+            width: 100%;
+            padding-top: 20px;
+            background-color: yellow;
+            font-size: 20px;
+            text-align: inherit;
+        }
+        #nav {
+            background-color: yellow;
+            text-align: center;
+            color: black;
+            margin: 0 auto;
+            border-bottom-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+        a {
+            text-decoration: none;
+        }
+        .top ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        #top li:hover {
+            background-color: black;
+            text-decoration: none;
+            color: gold;
+            font-size: 1.1em;
+        }
+        .video {
+            border-radius: 2px;
+            border-color: red;
+            padding: 2%;
+            margin: 2 auto;
+        }
+        .side {
+            width=50%;
+            height: 30%;
+            float: right;
+        }
+        .top li {
+            float: left;
+            padding-left: 5%;
+            padding-right: 5%;
+            text-align: center;
+        }
+        #kula img {
+            border-top-color: black;
+        }
+        .main {
+            margin: 0 auto;
+            background-color: black;
+            background-blend-mode: color-dodge red;
+            width: 100%;
+        }
+        /* styling the fast food images */
+        
+        .photos {
+            height: 100%;
+        }
+        #photo {
+            margin: 0 auto;
+        }
+        .photos img {
+            margin: 40% auto;
+            position: absolute;
+        }
+        .photos img:nth-of-type(1) {
+            left: 50px;
+            top: 50px;
+        }
+        .photos img:nth-of-type(2) {
+            left: 150px;
+            top: 100px;
+        }
+        .photos img:nth-of-type(3) {
+            left: 250px;
+            top: 50px;
+        }
+        .photos img:nth-of-type(4) {
+            left: 350px;
+            top: 150px;
+        }
+        .photos img:nth-of-type(5) {
+            left: 450px;
+            top: 50px;
+        }
+        .photos img:nth-of-type(1) {
+            left: 50px;
+            top: 50px;
+            -webkit-transform: rotate(5deg);
+            -moz-transform: rotate(5deg);
+            -o-transform: rotate(15deg);
+            transform: rotate(5deg);
+        }
+        .photos img:nth-of-type(2) {
+            left: 150px;
+            top: 100px;
+            -webkit-transform: rotate(-10deg);
+            -moz-transform: rotate(-10deg);
+            -o-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+        }
+        .photos img:nth-of-type(3) {
+            left: 250px;
+            top: 50px;
+            -webkit-transform: rotate(7deg);
+            -moz-transform: rotate(7deg);
+            -o-transform: rotate(7deg);
+            transform: rotate(7deg);
+        }
+        .photos img:nth-of-type(4) {
+            left: 350px;
+            top: 150px;
+            -webkit-transform: rotate(-3deg);
+            -moz-transform: rotate(-3deg);
+            -o-transform: rotate(-3deg);
+            transform: rotate(-3deg);
+        }
+        .photos img:nth-of-type(5) {
+            left: 450px;
+            top: 50px;
+            -webkit-transform: rotate(2deg);
+            -moz-transform: rotate(2deg);
+            -o-transform: rotate(2deg);
+            transform: rotate(2deg);
+        }
+        .photos img:hover {
+            -webkit-transform: scale(1.5);
+            -moz-transform: scale(1.5);
+            -o-transform: scale(1.5);
+            transform: scale(1.5);
+            z-index: 10;
+        }
+        .photos img {
+            -webkit-transition: all 0.5s ease-out;
+            -moz-transition: all 0.5s ease-out;
+            -o-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
+        }
+        .photos img {
+            -webkit-transition: all 0.5s ease-out;
+            -moz-transition: all 0.5s ease-out;
+            -o-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
+            padding: 10px 10px 30px 10px;
+            background: white;
+            border: solid 1px black;
+        }
