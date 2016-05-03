@@ -34,67 +34,7 @@
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
         }
-        /*   #top {
-            margin: 0 auto;
-        }
-        #top {
-            width: 100%;
-            padding-top: 20px;
-            background-color: yellow;
-            font-size: 20px;
-            text-align: inherit;
-        }
-        #nav {
-            background-color: yellow;
-            text-align: center;
-            color: black;
-            margin: 0 auto;
-            border-bottom-left-radius: 15px;
-            border-bottom-left-radius: 15px;
-        }
-        a {
-            text-decoration: none;
-        }
-        #top ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-        #top li:hover {
-            background-color: black;
-            text-decoration: none;
-            color: gold;
-            font-size: 1.1em;
-        }
-        .video {
-            border-radius: 2px;
-            border-color: red;
-            padding: 2%;
-            margin: 2 auto;
-        }
-        .side {
-            width=50%;
-            height: 30%;
-            float: right;
-        }
-        #top li {
-            float: left;
-            padding-left: 5%;
-            padding-right: 5%;
-            text-align: center;
-            border-bottom-left-radius: 15px;
-            border-bottom-left-radius: 15px;
-        }
-        #kula img {
-            border-top-color: black;
-        }
-        .main {
-            margin: 0 auto;
-            background-color: black;
-            background-blend-mode: color-dodge red;
-            width: 100%;
-        }
-        /* styling the fast food images */
+      
         
         .photos {
             height: 100%;
