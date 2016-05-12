@@ -36,6 +36,7 @@
         }
       
         
+/*
         .photos {
             height: 100%;
         }
@@ -120,14 +121,15 @@
             transition: all 0.5s ease-out;
         }
         .photos img {
-            /* -webkit-transition: all 0.5s ease-out;
+             -webkit-transition: all 0.5s ease-out;
             -moz-transition: all 0.5s ease-out;
-            -o-transition: all 0.5s ease-out;*/
+            -o-transition: all 0.5s ease-out;
             transition: all 0.5s ease-out;
             padding: 10px 10px 30px 10px;
             background: white;
             border: solid 1px black;
         }
+*/
         /*======================navigation========================*/
         
         @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
