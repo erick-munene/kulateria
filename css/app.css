@@ -54,7 +54,7 @@ h1 {
   text-align: center;
 }
 
-nav {
+stickyNav {
   width: 100%;
   height: 40px;
   background: #000;
@@ -62,20 +62,21 @@ nav {
 
 .fixed {
   position: fixed;
-  top: 0px;
+  top: 10px;
 }
 
 .mainNav {
   width: 70%;
-  z-index: 1;
+  
   margin: 0 auto;
     color: gold;
 }
 .mainNav a{
     color: gold;
+    
 }
 .mainNav li {
-    z-index: 1;
+
   float: left;
   text-align: center;
   width: 20%;

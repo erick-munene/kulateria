@@ -5,6 +5,7 @@
 	margin: 0 auto;
 	list-style: none;
 	text-align: center;
+     z-index: 5;
 }
 
 .portfolio li {
