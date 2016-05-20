@@ -67,9 +67,11 @@ nav {
 
 .mainNav {
   width: 70%;
+  z-index: 1;
   margin: 0 auto;
 }
 .mainNav li {
+    z-index: 1;
   float: left;
   text-align: center;
   width: 20%;
