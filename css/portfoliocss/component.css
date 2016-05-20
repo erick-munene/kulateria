@@ -1,5 +1,5 @@
 .portfolio {
-    background-color: antiquewhite;
+   
 	padding: 20px 20px 100px 20px;
 	max-width: 1300px;
 	margin: 0 auto;
@@ -32,8 +32,9 @@
 	top: 0;
 	left: 0;
 	padding: 20px;
-	background: #2c3f52;
-	color: #ed4e6e;
+	background: black;
+	color: gold;
+    opacity: 20;
 }
 
 .portfolio figcaption h3 {

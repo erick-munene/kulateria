@@ -69,6 +69,10 @@ nav {
   width: 70%;
   z-index: 1;
   margin: 0 auto;
+    color: gold;
+}
+.mainNav a{
+    color: gold;
 }
 .mainNav li {
     z-index: 1;
@@ -96,9 +100,21 @@ nav {
     
 }
 
+.mainNav :hover{
+    
+    background-color: gold;
+    color: black;
+}
+
+.mainNav a:hover{
+    color: black;
+}
+
 .content {
   width: 75%;
   margin: 0 auto;
 }
 
-
+#portfolio{
+    background-color: black;
+}
