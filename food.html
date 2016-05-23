@@ -1,0 +1,22 @@
+<div class='menu' ng-app='recipeFinder' ng-cloak='true' ng-controller='itemListCtrl'>
+  <div class='menu_item'>
+    <div class='menu_item__inner' ng-repeat='item in items' ng-show='item.id == index'>
+      <h2>{{ item.name }}</h2>
+      <img height='auto' src='{{item.image}}' width='200'>
+    </div>
+  </div>
+  <div class='menu_item__nav'>
+    <i class='fa fa-chevron-left' ng-click='prev()'></i>
+    <i class='fa fa-chevron-right' ng-click='next()'></i>
+  </div>
+  <div class='menu_recipe'>
+    <div class='menu_recipe__list' ng-repeat='item in items' ng-show='item.id == index'>
+      <h2>{{item.name}} Ingredients</h2>
+      <ul>
+        <li ng-repeat='i in item.ingredients'>
+          {{ i }}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
