@@ -1,20 +1,16 @@
 $(document).foundation()
 
 
-$(function() {
+// ======= navigation ======
 
-  var stickyNav = $('#stickyNav'),
-      offset = stickyNav.offset(),
-      spacer = stickyNav.height();
-  
-$(window).scroll(function() {
-                   
-    if($(this).scrollTop() >= offset.top + 1 && $('#stickyNav').not('fixed')) {
-      stickyNav.addClass('fixed'),
-      $('#spacer').height(spacer);
-    }else if ($(this).scrollTop() <= offset.top && stickyNav.hasClass('fixed')){
-      stickyNav.removeClass('fixed'),
-      $('#spacer').height(0);
+$(".mobile").click(function() {
+  $("nav").slideToggle();  
+});
+
+var menu = $("nav");
+jQuery(window).on('resize', function(){     
+    if(!jQuery(".mobile").is(":visible") && !menu.is(':visible'))
+    {
+        menu.css({'display':''});   
     }
-  });
 });
