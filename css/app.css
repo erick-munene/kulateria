@@ -303,3 +303,14 @@ nav ul li:nth-child(3) {
     
     
 }
+
+#portfolio figcaption a{
+    background-color: gold;
+    color: black;
+    
+}
+
+#portfolio figure{
+    margin: 0 auto;
+     
+}

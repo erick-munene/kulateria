@@ -10,11 +10,12 @@
 
 .portfolio li {
 	display: inline-block;
-	width: 440px;
+	width: 100%;
+    height: auto;
 	margin: 0;
-	padding: 20px;
+/*	padding: 20px;*/
 	text-align: left;
-	position: relative;
+/*	position: relative;*/
 }
 
 .portfolio figure {
@@ -24,6 +25,7 @@
 
 .portfolio figure img {
 	max-width: 100%;
+    max-height:auto;
 	display: block;
 	position: relative;
 }
@@ -45,7 +47,7 @@
 }
 
 .portfolio figcaption span:before {
-	content: 'by ';
+	content: 'by Kulateria ';
 }
 
 .portfolio figcaption a {
