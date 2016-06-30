@@ -295,6 +295,8 @@ nav ul li:nth-child(3) {
 
 #portfolio{
     background:rgba(0, 0, 0, 0.9); 
+    height: auto;
+    width: 100%;
 }
 
 #portfolio h1{
