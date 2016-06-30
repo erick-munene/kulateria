@@ -310,6 +310,10 @@ nav ul li:nth-child(3) {
     
 }
 
+#portfolio figcaption a:hover{
+    background-color: yellow;
+}
+
 #portfolio figure{
     margin: 0 auto;
      
