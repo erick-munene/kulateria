@@ -46,14 +46,13 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="gallery.html">Menu</a></li>
-            <li><a href="#"></a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="contacts.html">Contact</a></li>
         </ul>
     </nav>
     <ul class="social">
         <li>
-            <a href="#" class="fa fa -facebook"></a>
+            <a href="#" class="entypo-facebook"></a>
         </li>
         <li>
             <a href="#" class="entypo-twitter"></a>
@@ -63,7 +62,7 @@
         </li>
     </ul>
     <a href="#" class="logo">K</a>
-    <a href="#" class="sign">Sign In</a>
+    <a href="#" class="sign">Sign Up</a>
 
     <div class="mobile">
         <span></span>
@@ -72,12 +71,11 @@
     </div>
 </div>
 
-<a href="#" class="mobile-sign">Sign In</a>
+<a href="#" class="mobile-sign">Sign Up</a>
 </header>
 
 
 </div>
-    
     <!--    =============================
             main landing section
         =========================================   -->
@@ -94,32 +92,29 @@
     <span id="plus2">Order Takeaway or Delivery Food</span>
     </div>
         
-     </div>   
+        
         
 <!--    =======================
             menu section
 ======================================-->
-    
         
         <div class="row expanded" id="portfolio">
-            <h1>CHOOSE FROM OUR MENU</h1>
-    <div class="row small-up-2 medium-up-3 large-up-4">
-        
-     <ul class="portfolio cs-style-3">
-    <div class="large-4 medium-4 small-12 columns">
+    <div class="row">
+        <div class="large-12 column">
+     <ul class="portfolio cs-style-1">
+    <div class="large-6 small-6 column">
 
 <li>
 <figure>
 <img src="images/Chicken-Burger.jpg" alt="img01">
 <figcaption>
-    <h3>Kulateria</h3>
-    <span>Chicken Burger</span>
-    <a href="#">Order Now</a>
+    <h3>Camera</h3>
+    <span>Jacob Cummings</span>
+    <a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
 </figcaption>
 </figure>
-</li>
-         </div>
-  <div class="large-4 medium-4 small-12 columns">  
+</li></div>
+  <div class="large-6 small-6 column">       
 <li>
 <figure>
 <img src="images/fastfood2.jpg" alt="img01">
@@ -130,38 +125,12 @@
 </figcaption>
 </figure>
 </li>
-        </div>
+        </div></ul></div></div>
         
-        
-<div class="large-4 medium-4 small-12 columns">
-        <li>
-<figure>
-<img src="images/fries.jpg" alt="img01">
-<figcaption>
-    <h3>Camera</h3>
-    <span>Jacob Cummings</span>
-    <a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
-</figcaption>
-</figure>
-     </li>
-         </div>
-         <div class="large-4 medium-4 small-12 columns">
-<li>
-<figure>
-<img src="images/pizza.jpg" alt="img01">
-<figcaption>
-    <h3>Camera</h3>
-    <span>Jacob Cummings</span>
-    <a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
-</figcaption>
-</figure>
-             </li>
-         </div>
- 
-   
-    
-    
- <div class="large-4 medium-4 small-12 columns">
+        <div class="row">
+            <div class="large-12 column">
+            <ul class="portfolio cs-style-1">
+ <div class="large-6 small-6 column">
         <li>
 <figure>
 <img src="images/fries.jpg" alt="img01">
@@ -172,7 +141,35 @@
 </figcaption>
 </figure>
      </li></div>
-        <div class="large-4 medium-4 small-12 columns">
+         <div class="large-6 small-6 column">
+<li>
+<figure>
+<img src="images/pizza.jpg" alt="img01">
+<figcaption>
+    <h3>Camera</h3>
+    <span>Jacob Cummings</span>
+    <a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+</figcaption>
+</figure>
+             </li></div>
+ </ul></div>
+    </div>
+    
+    <div class="row">
+            <div class="large-12 column">
+            <ul class="portfolio cs-style-1">
+ <div class="large-6 small-6 column">
+        <li>
+<figure>
+<img src="images/fries.jpg" alt="img01">
+<figcaption>
+    <h3>Camera</h3>
+    <span>Jacob Cummings</span>
+    <a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+</figcaption>
+</figure>
+     </li></div>
+         <div class="large-6 small-6 column">
 <li>
 <figure>
 <img src="images/pizza.jpg" alt="img01">
@@ -187,12 +184,6 @@
     </div>
     
     </div>
-
-
-
-<!-- =======================  
-          footer section
- ========================== -->
     
     <div class="row expanded">
 <div class="small-12 columns fullwidth foot">
@@ -225,9 +216,7 @@
         "height": 2000,
         "path": "video/",
         "filename": "burger",
-          "background":"no-repeat",
-        "types": ["mp4"] 
-          
+        "types": ["mp4"]       
       });
         
     
