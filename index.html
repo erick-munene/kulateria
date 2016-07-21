@@ -10,24 +10,13 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet'>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link href='https://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" type="text/css" href="css/portfoliocss/component.css" />
     <script src="js/portfoliojs/modernizr.custom.js"></script>
-    <!--<link rel="stylesheet" type="text/css" href="css/portfoliocss/component.css" />-->
-
-    <!--<script src="js/portfoliojs/modernizr.custom.js"></script>-->
-    <!--
-<style type="text/css" media="screen">
-    * { margin:0px;padding:0px; }
-    html, body {
-      background:#000;
-      font-family:sans-serif;
-    }
-  </style>
     
--->
 </head>
 
 <body>
@@ -45,8 +34,8 @@
             <div class="container">
                 <nav>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="gallery.html">Menu</a></li>
+                        <li><a href="#title">Home</a></li>
+                        <li><a href="#portfolio">Menu</a></li>
                         <li>
                             <a href="#"></a>
                         </li>
@@ -92,11 +81,11 @@
     <div class="row expanded main">
         <div class="small-12 columns fullwidth overlay" id="main">
 
-            <span id="plus">Welcome to<br>Kulateria</span>
-            <br>
-            <br>
-            <br>
-            <span id="plus2">Order Takeaway or Delivery Food</span>
+            <span id="plus">Welcome to Kulateria</span>
+            <br> <br><br><br><br><br>
+            <span id="plus2">
+                <a href="#portfolio"><i class="fa fa-angle-down animated infinite bounce" aria-hidden="true"></i></a>
+                </span>
         </div>
 
     </div>
@@ -230,6 +219,82 @@
                     </figure>
                 </li>
             </div>
+
+
+            <div class="columns">
+                <li>
+                    <figure>
+                        <img src="images/1.jpg" alt="img01">
+                        <figcaption>
+                            <h3>Camera</h3>
+                            <span></span>
+                            <a href="#">Order Now</a>
+                        </figcaption>
+                    </figure>
+                </li>
+            </div>
+            <div class="columns">
+                <li>
+                    <figure>
+                        <img src="images/2.jpg" alt="img01">
+                        <figcaption>
+                            <h3>Camera</h3>
+                            <span></span>
+                            <a href="#">Order Now</a>
+                        </figcaption>
+                    </figure>
+                </li>
+            </div>
+
+            <div class="columns">
+                <li>
+                    <figure>
+                        <img src="images/3.jpg" alt="img01">
+                        <figcaption>
+                            <h3>Camera</h3>
+                            <span></span>
+                            <a href="#">Order Now</a>
+                        </figcaption>
+                    </figure>
+                </li>
+            </div>
+            <div class="columns">
+                <li>
+                    <figure>
+                        <img src="images/4.jpg" alt="img01">
+                        <figcaption>
+                            <h3>Camera</h3>
+                            <span></span>
+                            <a href="#">Order Now</a>
+                        </figcaption>
+                    </figure>
+                </li>
+            </div>
+
+            <div class="columns">
+                <li>
+                    <figure>
+                        <img src="images/5.jpg" alt="img01">
+                        <figcaption>
+                            <h3>Camera</h3>
+                            <span></span>
+                            <a href="#">Order Now</a>
+                        </figcaption>
+                    </figure>
+                </li>
+            </div>
+            <div class="columns">
+                <li>
+                    <figure>
+                        <img src="images/8.jpg" alt="img01">
+                        <figcaption>
+                            <h3>Camera</h3>
+                            <span></span>
+                            <a href="#">Order Now</a>
+                        </figcaption>
+                    </figure>
+                </li>
+            </div>
             
         </ul>
     
@@ -283,6 +348,24 @@
 
         });
     </script>
+
+    <script>
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1500);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
 
 
 </body>

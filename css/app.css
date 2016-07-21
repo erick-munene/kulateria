@@ -267,10 +267,11 @@ nav ul li:nth-child(3) {
 }
 #plus {
     
-    font-family: Helvetica;
+    font-family: Arizonia;
+    letter-spacing: 2px;
     font-weight: 900;
     color: gold;
-    font-size: 6em;
+    font-size: 3em;
 }
 
 
@@ -282,7 +283,10 @@ nav ul li:nth-child(3) {
     font-size: 4em;
 }
 
-
+#plus2 i{
+     color: gold;
+     text-align: center;
+}
 
 
 /* 
